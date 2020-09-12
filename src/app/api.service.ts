@@ -17,5 +17,4 @@ export class ApiService {
     };
     return await this.httpClient.post(this.url + path, data, httpOptions).toPromise();
   }
-
 }
